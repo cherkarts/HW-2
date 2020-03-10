@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis Cherkas HW.- 2</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css" type="text/css" />
+  </head>
+  <body>
+    <section id="todo-app" class="todo-app">
+      <div class="info" onclick="modalOpen()"></div>
+      <h1>Todo Appaplication</h1>
+      <input tupe="text"  placeholder="Введите задачу" />
+      <ul id="spisok">
+        
+      </ul>
+      <div class="buttons">
+        <button class="btn" id="save">Сохранить все</button>
+        <button class="btn" id="clear">Удалить все</button>
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal-up">
+          <div class="icon">
+          </div>
+          <div class="offer">
+            <H2>Hi,<br> My name is </H2>
+            <H1><strong>Denis  Cherkas </strong> <br> I’m a web </H1>
+            <span class="developer">DEVELOPER</span>
+            <H2>from BELARUS</H2>
+          </div>
+          <div class="close" id="close" onclick="modalClose()">
+            <div class="closs" id="closs"></div>
+          </div>
+        </div>
+        <div class="link">
+          <a href="https://vk.com/cherkarts"  target="blank"><div class="icon-link icon-link1"></div></a>
+          <a href="http://tele.gg/cherkarts"  target="blank"><div class="icon-link icon-link2"></div></a>
+          <a href="tel:+375255202951"  target="blank"><div class="icon-link icon-link3"></div></a>
+          <a href="mailto:cherkarts.denis@gmail.com"  target="blank"><div class="icon-link icon-link4"></div></a>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
